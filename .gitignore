@@ -1,0 +1,17 @@
+# Secrets
+.env
+.env.*
+
+# Statisk site-generator build-output (Hugo/Jekyll/o.l.)
+public/
+_site/
+.hugo_build.lock
+
+# Node (hvis byggsteg)
+node_modules/
+
+# macOS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
